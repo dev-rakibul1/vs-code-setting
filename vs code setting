@@ -1,0 +1,38 @@
+  // Global theme info
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "synthwave84.brightness": 0.45,
+
+  // font information
+  "editor.fontSize": 17,
+  "editor.fontWeight": 400,
+  "editor.fontFamily": "'victor mono', 'operator mono', 'JosefinSlab', 'dank mono', 'jetBrains mono', Fira Code",
+  "editor.fontLigatures": true,
+
+  // pointer animation
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+
+  // comment color
+  "editor.tokenColorCustomizations": {
+    "comments": "#53ff28"
+  },
+
+  // tarminal information
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.fontFamily": "jetBrains mono",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // code formatter
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
